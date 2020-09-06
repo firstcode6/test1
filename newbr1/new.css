@@ -1,0 +1,252 @@
+<!DOCTYPE html>  <!-- HTML5 -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FIRST PAGE</title>
+
+    <!-- язык нашего сайта text/html-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <!-- Описания сайта 100-200 слов -->
+    <meta name="description" content="Описания сайта 100-200 слов"/>
+
+    <!-- Ключевые, слова, на, нашем, сайте -->
+    <meta name="keywords" content="Ключевые, слова, на, нашем, сайте"/>
+
+    <!-- стили -->
+    <link href="http://ideasburner.com/css/main.css" rel="stylesheet"
+          type="text/css"/>
+
+    <!-- скрипты -->
+    <script src="http://ajax. googleapis.com/ajax/libs/jquery/2.0.3/
+jquery.min. js"></script>
+</head>
+
+<!-- комментарий -->
+<body>
+<H1>Заголовок текста1</H1>
+
+<!-- 2 переход на данную страку этой же страницы -->
+<a href="#example">Переход на Первый пункт </a>  <!-- Ссылка -->
+<p>тег абзаца</p>
+<p><b>тег абзаца1</b></p>
+<p>тег абзаца2</p>
+<p><em>тег абзаца3</em></p>
+<p><abbr title="Доп информация">Курсор на меня</abbr></p>
+
+<small>Малельний текст</small>
+<big>Большой текст</big>
+<pre> пробелы      пробелы
+		   
+		   
+       абзац</pre>
+<blockquote cite="http://lol.com"><p>Цитата: "This is unique opportunity to study at the University in English"</p>
+</blockquote>
+
+<p align="right">С. Лец утверждал:<q>Чаще всего выход там, где был вход</q>.</p>
+<hr/>
+<br/><br/><br/>
+
+<!-- нумерованный список -->
+<a name="example"></a><!-- Ссылка -->
+<ol type="a" start=3>
+    <li>Первый пункт</li>
+    <li>Второй пункт</li>
+    <li>......</li>
+
+</ol>
+
+<ul type="cirle">
+    <li>Первый</li>
+    <li>Второй</li>
+</ul>
+
+<dir>
+    <li>Первый!</li>
+    <li>Второй1</li>
+</dir>
+
+
+<!-- Ссылки -->
+
+<!--1 перенаправляет в другой сайт -->
+<a href="http://google.com" target="_blank" title="Переход на google">Сайт</a>
+<br/>
+<!-- 3 переход на почту -->
+<a href="mailto:ravil.nazarob@bk.ru">Email</a>
+<br/>
+
+
+<!-- изображение-->
+<img src="https://www.prikol.ru/wp-content/uploads/2017/10/kartinki-04102017-001.jpg" width="20%"
+     height="20%"
+
+     title="Кошка" alt="Кошка под дождем" border="10px" align="center"/>
+
+
+<br/><br/>
+
+
+<!-- таблицы-->
+<table border="1">
+    <caption>Название таблицы</caption>
+    <tr>
+        <th>Рост</th>
+        <th>Вес</th>
+        <th>Возраст</th>
+    </tr>
+
+    <tr>
+        <td>170</td>
+        <td>65</td>
+        <td>23</td>
+    </tr>
+
+</table>
+
+<br/><br/>
+<table border="1" cellpadding="7" cellspacing="0">
+    <tr>
+        <td colspan="3" bgcolor="#D3EDF6" align="center">Ячейка 1</td>
+    </tr>
+    <tr>
+        <td valign="middle" width="2%" align=" center">Ячейка 2</td>
+        <td width="96" valign="top">Ячейка 3</td>
+        <td width="28" valign="top">Ячейка 3</td>
+    </tr>
+</table>
+
+<br/>
+<br/>
+
+
+<!-- теги div и span-->
+<div>Проверка</div>
+<span>Проверка</span>
+
+<br/><br/>
+<!-- Поля ввода-->
+<form name="test" action="" method="post">
+    <label for="name1">Введите ваше имя:</label> <input type="text" placeholder="Поиск..." name="name" id="name1"
+                                                        title="Подсказка" maxlength="3"/> <br/><br/>
+    <label for="date">День рождение:</label> <input type="date" id="date"/>
+    <br/><br/>
+    <label for="date">URL:</label> <input type="url"/>
+    <br/><br/>
+    <input type="range"/>
+
+    <br/><br/>
+    <label for="male">Мужской</label> <input type="radio" name="state" id="male"/>
+    <label for="female">Женский</label> <input type="radio" name="state" id="female"/>
+
+    <br/><br/>
+    <label for="passw"> Пароль:</label><input type="password" id="passw"/> <br/><br/>
+    <label for="nub">Цифры :</label> <input type="number" id="nub"/> <br/><br/>
+    <label for="file1">Выбрать файл :</label> <input type="file" id="file1"/><br/><br/>
+    <label for="col">Выбрать цвет :</label> <input type="color" id="col"/><br/><br/>
+    <label for="ch_b">Со всем согласен :</label> <input type="checkbox"
+                                                        id="ch_b"/><br/><br/>
+
+
+    <input type="button"
+           value="button. Для javascrips не перезагружает страницу"/><br/><br/>
+    <input type="submit"
+           value="submit. Для php перезагружает страницу"/><br/><br/>
+
+    <input type="reset" value="Очистить все поля и данные"/><br/><br/>
+
+</form>
+
+<!-- Поля ввода текста-->
+<textarea placeholder="Комментарий"></textarea> <br/><br/>
+<button>Отправить</button>
+<br/><br/>
+
+<!-- Выбор одного из списка Теги select и option-->
+<select>
+    <option>список1</option>
+    <option>выбора</option>
+    <option selected="selected">одного варианта</option>
+</select>
+
+<!-- Выбор нескольких вариантов с удержанием Ctrl-->
+
+<form action="select1.php" method="post">
+    <p><select size="5" multiple="multiple" name="hero[]">
+        <option disabled="disabled">Выберите героя</option>
+        <option value="Чебурашка">Чебурашка</option>
+        <option selected="selected" value="Крокодил Гена">Крокодил Гена</option>
+        <option value="Шапокляк">Шапокляк</option>
+        <option value="Крыса Лариса">Крыса Лариса</option>
+    </select></p>
+    <p><input type="submit" value="Отправить1"></p>
+</form>
+
+<!-- Теги только в HTML5   <ol> <ul> -->
+<header>Шапка сайта</header>
+<article>Статья, новость, пост....</article>
+<!-- список меню, типа  <ol> <ul> -->
+<menu>
+    <li>the first</li>
+    <li>the second</li>
+    <li>the third</li>
+</menu>
+<aside>Боковая панель</aside>
+<footer>Низ сайта</footer>
+
+<article>
+    <p>мелодия</p>
+    <audio controls="controls" autoplay="autoplay" loop="loop">
+        <source src="https://vk.com/mp3/bb1.mp3?1"/>
+    </audio>
+
+    <br/><br/>
+    <video controls="controls" autoplay="autoplay">
+        <source src="https://www.youtube.com/embed/uVtdhB8UiX8"/>
+    </video>
+
+</article>
+
+<br/><br/>
+<!-- степень верхняя нижняя-->
+H<sub>2</sub>O
+a<sup>2</sup>
+<br/><br/>
+
+<!-- специальные теги -->
+<!-- всплывающее окно -->
+<details>
+    <summary>Информация об авторе</summary>
+    <p>Джордж Оруэл</p>
+</details>
+
+<!-- выделяет желтым -->
+opportunity
+<mark>HTML5</mark>
+<br/><br/>
+<!-- подсказки над словом-->
+<ruby>
+    OOP
+    <rt> C# C++</rt>
+    OOP
+    <rt> вверху я </rt>
+</ruby>
+<br/><br/>
+<!-- процесс загрузки-->
+<progress max="100" value="25">
+    Загружено на <span id="value">25</span>
+</progress>
+
+<!-- ввод и вывод-->
+<form oninput=" result. value=(cm. value/2.54). toFixed(2)">
+    <p>Введите длину в сантиметрах:
+        <input type="number" name="cm" autofocus></p>
+    <p>Длина в дюймах:
+        <output name="result">0</output>
+    </p>
+</form>
+
+</body>
+
+
+</html>
